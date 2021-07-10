@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Currency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img src="./image/exchange-currency.png" alt="" srcset="">
+            <h2>Exchange Currency (แปลงสกุลเงิน)</h2>
+        </div>
+        <div class="currency">
+            <select name="" id="currency-one">
+                <option key=1 value="EUR">EUR</option>
+                <option value="THB" selected>THB</option>
+                <option value="USD">USD</option>
+            </select>
+            <input type="number" name="" id="amount-one" value="1">
+        </div>
+        <div class="swap-container">
+            <button id="exchange-btn" class="swap-btn">Swap Currency</button>
+            <div id="exchange-rate" class="exchange-rate">exchange rate</div>
+        </div>
+        <div class="currency">
+            <select name="" id="currency-two">
+                <option value="EUR">EUR</option>
+                <option value="THB">THB</option>
+                <option value="USD" selected>USD</option>
+            </select>
+            <input type="number" name="" id="amount-two">
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
